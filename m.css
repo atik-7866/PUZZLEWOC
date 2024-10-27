@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    background: linear-gradient(to bottom , #e8c799 , #99572b);
+}
+
+#board{
+    width: 305px;
+    height: 304px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap ;
+    
+    top:50px;
+    box-shadow: 0px 0px 7px 7px rgb(60, 36, 5);
+    
+}
+#board img{
+    width: 100px;
+    height: 100px;
+
+    border:1px solid #503B31;
+    
+}
+#pieces{
+    width:775px;
+    height:80px;
+    
+    box-shadow: 0px 0px 7px 7px rgb(157, 106, 40);
+   
+    margin:10px auto;
+    margin-top: 55px;
+    margin-bottom: 20px;;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pieces img{
+    margin: 0.5px auto;
+    width: 80px;
+    height: 80px;
+    border:3px solid rgb(159, 101, 79);
+    
+
+}
+#navbar{
+    height:65px;
+    width:auto;
+    background-color: #503B31;
+    justify-content:space-evenly;
+
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color:beige;
+}
+.body{
+    background-color: #E3DFFF;
+    justify-content: center;
+    
+}
+.t{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #503B31;
+    
+}
+.bottom{
+    position: sticky;
+    /* bottom: 0; */
+    height: 210px;
+    background-color: #503B31;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top:50px;
+}
+.bottom button{
+    padding: 1px 18px;
+    background-color:#EFF2C0 ;
+    color:#95794b;
+   
+    border-radius: 6px;
+    justify-content:space-evenly;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 20px;
+    font-weight: bolder;
+}
+.bottom button:hover{
+    box-shadow: 0px 0px 7px 5px rgb(237, 234, 230);
+
+     height: 50px;
+    transition-duration:500ms;
+    
+}
